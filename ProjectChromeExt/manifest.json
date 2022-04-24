@@ -1,0 +1,17 @@
+{
+  "name": "Send Youtube link to App",
+  "version": "1.0",
+  "manifest_version": 3,
+  "icons": {
+    "16": "youtube.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+ 
+  },
+  "action": {
+    "default_title": "youtube link"
+  },
+  "permissions": ["activeTab", "scripting", "tabs"]
+ 
+}
